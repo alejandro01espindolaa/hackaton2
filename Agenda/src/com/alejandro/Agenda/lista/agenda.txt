@@ -49,3 +49,4 @@ Clara,Rodríguez,Marín,2345678901,USR047
 Rafael,López,Alonso,3456789012,USR048
 Marta,González,Morales,4567890123,USR049
 Santiago,Hernández,Reyes,5678901234,USR050
+Pedro,Jimenez,Ramirez,646484714,USR051
