@@ -11,11 +11,12 @@ public class Main {
                     "1./ Leer\n" +
                     "2./ Agregar \n" +
                     "3./ Eliminar \n" +
-                    "4./ Salir");
+                    "4./ Salir" +
+                    "5./ Limpiar lista");
 
             opc = sc.next();
 
-            if (!opc.matches("[1-4]")) {
+            if (!opc.matches("[1-5]")) {
                 System.out.println("Opcion invalida. Por favor, ingresa un numero entre 1 y 4.");
                 continue;
             }

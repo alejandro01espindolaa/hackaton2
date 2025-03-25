@@ -32,6 +32,8 @@ public class swichf {
                        "2. ver agenda completa");
                opc2 = sc.next();
 
+               readc.readcontactag(nombre1,apellidop1,apellidop2,telefono1,userID1);
+
                switch (opc2){
                    case "1":
                        System.out.println("Ingrea nombre que deseas buscar");
@@ -46,6 +48,7 @@ public class swichf {
                        userID1 = sc.next();
                        readc.readcontactag(nombre1,apellidop1,apellidop2,telefono1,userID1);
                        break;
+
 
                    case "2":
                        read.readlist();
